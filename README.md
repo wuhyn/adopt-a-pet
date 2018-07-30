@@ -1,1 +1,1 @@
-# adopt-a-pet
+# Simple Image Gallery website

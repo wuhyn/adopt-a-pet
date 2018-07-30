@@ -1,3 +1,20 @@
+.navbar{
+  margin-bottom: 50px;
+}
+
 .jumbotron{
   margin-top:100px;
+}
+
+/*Gallery page css*/
+.gallery-title{
+  margin-bottom: 50px;
+}
+
+.single-image {
+  margin-bottom:50px;
+}
+
+.single-image p{
+  margin: 5px;
 }

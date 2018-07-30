@@ -8,3 +8,7 @@ require 'core/bootstrap.php';
 // require 'routes.php';
 
 $uri = Request::uri();
+
+//Load the routes
+$router = Router::load('routes.php');
+require $router->direct($uri);

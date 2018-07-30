@@ -1,5 +1,5 @@
 <?php
 
-$tasks = $database->selectAll('todos');
+$images = $database->selectAll('gallery_image');
 
 require 'views/gallery.view.php';

@@ -1,17 +1,14 @@
 <?php require('partials/head.php') ?>
+  <div class="container">
+    <div class="row">
+      <?php foreach ($images as $image) : ?>
+          <div class="col-lg-4 col-sm-6">
+              <img class="img-thumbnail" src="<?= $image->image_path; ?>"  />
+          </div>
+      <?php endforeach; ?>
 
-  <h1>My Tasks</h1>
-  <ul>
-    <?php echo "HELLO"; ?>
-    <?php foreach ($tasks as $task) : ?>
-      <li>
-        <?php if($task->completed) : ?>
-            <strike><?= $task->description; ?></strike>
-        <?php else : ?>
-            <?= $task->description; ?>
-        <?php endif; ?>
-      </li>
-    <?php endforeach; ?>
-  </ul>
+    </div>
+  </div>  
+
 
 <?php require('partials/footer.php');
